@@ -63,9 +63,7 @@ swapTemperature(60);
   let val = "TrungKiendeptraiqua";
   function valtitle(val) {
     let value = "";
-    for (let i = 0; i <= val.length; i++) {
-      value = val;
-    }
+    value = val;
     console.log(value.slice(0, 10) + "...", "ex5");
   }
   valtitle(val);
@@ -77,9 +75,7 @@ swapTemperature(60);
   let val = "morSofware";
   function valtitle(val) {
     let value = "";
-    for (let i = 0; i <= val.length; i++) {
-      value = val;
-    }
+    value = val;
     console.log(value.charAt(0).toLocaleUpperCase() + value.slice(1), "ex6");
   }
   valtitle(val);
@@ -207,10 +203,10 @@ swapTemperature(60);
     { name: "MInh", score: 8 },
     { name: "hung", score: 7 },
   ];
-  const beststudent = students.filter(function (item) {
+  const bestStudent = students.filter(function (item) {
     return item.score >= 7;
   });
-  console.log(beststudent, "demo filter");
+  console.log(bestStudent, "demo filter");
 }
 {
   const arr = [1, 2, 3, 4, 5];
